@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Verification</title>
+</head>
+<body>
+
+
+    <p>Hi {{ user.username }},</p>
+<p>Thank you for registering! To verify your email address, please use the following OTP:</p>
+<p><strong>{{ otp }}</strong></p>
+<p>The OTP is valid for 10 minutes. Please use it within this time to complete your registration.</p>
+<p>If you didn't register, please ignore this email.</p>
+
+    
+</body>
+</html>
+
